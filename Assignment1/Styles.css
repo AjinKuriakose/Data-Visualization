@@ -1,0 +1,102 @@
+body {
+    background-color: #f0f0f5;
+}
+
+h1 {
+color : #002b80;
+    text-shadow: 1px 2px #ccdcff;
+}
+
+svg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: #e0e0eb;
+  border: 2px solid #d1d1e0;
+  height: 550px;
+  width:auto;
+    border: 1px solid #d1d1e0;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px #d1d1e0;
+}
+svg:hover {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: #e0e0eb;
+  height: 550px;
+  width:auto;
+  border: 2px solid #d1d1e0;
+  border-radius: 5px;
+  box-shadow: 5px 3px 3px #d1d1e0;
+}
+
+.box {
+    margin-left: auto;
+	margin-right: auto;
+    height: 25px;
+    width: 600px;
+    background-color: blue;
+}
+
+.button {
+  height: 100px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1000px;
+}
+#startBtn:hover{
+  font-family: OpenSans;
+  color: #FFFFFF;
+  background-color: #6495ED;
+  border: 2px solid #99b9ff;
+  border-radius: 5px;
+  box-shadow: 5px 3px 3px #99b9ff;
+  top: 0px;
+  transition: all ease 0.3s;
+}
+
+#startBtn {
+  font-family: OpenSans;
+  color: #FFFFFF;
+  background-color: #6495ED;
+  border: 2px solid #99b9ff;
+  top: 0px;
+  transition: all ease 0.3s;
+   border: 1px solid #99b9ff;
+  border-radius: 2px;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.rect {
+	
+fill: steelblue;
+
+}
+
+.arc text {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.arc path {
+  stroke: #0000;
+}
+
+.rect:hover {
+	
+fill: orange;
+
+}
+
+.axis text{
+    font: Times;
+    font-size: 12px;
+    font-weight: bold;
+}

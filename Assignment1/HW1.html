@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Visualization Assignment - 1</title>
+
+    <!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="Styles.css">
+
+    <!-- D3.js CDN source -->
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script src="https://d3js.org/d3-ease.v1.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Title -->
+    <h1  style="text-align:center;">Baseball Players Statistics</h1>
+
+	<br>
+	<div style="text-align:center;"class="box" id="startBtn" onmousemove="adjustBin(event)"> <i>Slide your mouse here to change the number of Bins</i></div><br><br>
+	</div>
+	<div>
+    <script type="text/javascript" src="script.js"></script>
+    </div>
+	
+    <div>
+    <div id="drop" align=center>
+        <select id="dropdown" onchange="set_attribute(this.value)">
+			<option value ="Height" >Height</option>
+			<option value ="Weight" >Weight</option>
+			<option value ="Average" >Average</option>
+			<option value ="HomeRun" >HomeRun</option>
+			</select>
+    </div> 	
+</body>
+
+</html>
